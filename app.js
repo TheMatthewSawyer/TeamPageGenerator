@@ -208,13 +208,46 @@ function createPage() {
         <body>
             
         <div class='container'>
-            
-            <nav class="navbar navbar-light bg-light">
-                <span class="navbar-brand mb-0 h1">My Team</span>
-            </nav>
 
             <div class='row'>
                     <div class="card-deck">
+                            <div class='col-md-12' style='margin: 25px 0px;'>
+                                <div class="card border-danger">
+                                    <div class="card-body text-center">
+                                        <h3>My Team</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class='col-md-4'>
+                                <div class="card border-success">
+                                    <div class="card-body">
+                                        <div style='width: 100%; display: inline-block; background: linear-gradient(0deg, rgba(9,131,0,1) 0%, rgba(9,131,0,1) 50%, rgba(18,255,0,1) 100%);border-radius: 5px;'>
+                                            <h4 style='text-align:center;'>Manager</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class='col-md-4'>
+                                <div class="card border-info">
+                                    <div class="card-body">
+                                        <div style='width: 100%; display: inline-block; background: linear-gradient(0deg, rgba(0,73,131,1) 0%, rgba(0,73,131,1) 50%, rgba(0,142,255,1) 100%);border-radius: 5px;'>
+                                            <h4 style='text-align:center;'>Engineer</h4>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class='col-md-4'>
+                                <div class="card border-warning">
+                                    <div class="card-body">
+                                        <div style='width: 100%; display: inline-block; background: linear-gradient(0deg, rgba(119,129,0,1) 0%, rgba(119,129,0,1) 50%, rgba(235,255,0,1) 100%); border-radius: 5px;'>
+                                            <h4 style='text-align:center;'>Intern</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
     `;
     for (var i = 0; i < createdTeam.length; i++) {
         tmpHTML += createdTeam[i].getHTML();
