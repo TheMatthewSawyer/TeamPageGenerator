@@ -7,17 +7,21 @@
 
 This project runs with node and has several dependencies. To run:
 
-> Ensure node is installed
-> Using git bash, VSC, or any other terminal, navigate to the directory.
-> Enter 'node app.js'
+* Ensure node is installed.
+
+* Using git bash, VSC, or any other terminal, navigate to the directory.
+
+* Enter 'node app.js'
 
 ## Testing
 
 Tests are included and can be run through jest:
 
-> Open Visual Studio Code
-> Open project folder in terminal
-> Enter 'npm test'
+* Open Visual Studio Code
+
+* Open project folder in terminal
+
+* Enter 'npm test'
 
 ## Built with
 
